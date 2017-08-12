@@ -1,5 +1,5 @@
-import React from "react"
-import PageHeader from './stylecomps/PageHeader';
+import React from "react";
+import {PageHeader} from './style';
 
 const Header = () => <header><PageHeader>Manage My Items</PageHeader></header>;
 

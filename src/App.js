@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import MainDiv from './stylecomps/MainDiv';
+import {MainDiv} from './style';
 import Header from './Header';
 import Add from './Add';
+import List from './List';
+
+let arrList = ['item1', 'item 2', 'hlkhklhlh 3'];
 
 class App extends Component {
   render() {
@@ -10,6 +12,7 @@ class App extends Component {
       <MainDiv>
         <Header />
         <Add />
+        <List arrList = {arrList}/>
       </MainDiv>
     );
   }

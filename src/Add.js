@@ -1,16 +1,13 @@
 import React from "react"
-import AddDiv from './stylecomps/AddDiv';
-import InputBox from './stylecomps/InputBox';
-import AddButton from './stylecomps/AddButton';
+import {InputBox, AddDiv, AddButton} from './style';
 
 
 const Add = () => {
 return (
-<AddDiv>
-    <InputBox type="text" id="add-item"/>
-    <AddButton>Add Item</AddButton>
-</AddDiv>
-
+    <AddDiv>
+        <InputBox type="text" id="add-item"/>
+        <AddButton>Add Item</AddButton>
+    </AddDiv>
 );
 }
 
