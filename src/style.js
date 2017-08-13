@@ -45,12 +45,26 @@ const ListHeader = styled.h3`
         margin: 0px;
 `;
 
+const Ulist = styled.ul`
+        list-style-type: none;
+`;
+
 const ListItem = styled.li`
+        display: flex;
+        justify-content: space-between;
+        min-width: 250px;
         background: palevioletred;
         padding: 5px;
         margin: 5px;
 `;
 
 
-export {InputBox, AddDiv, AddButton, MainDiv, PageHeader, ListHeader, ListDiv, ListItem};
+const DelButton = styled.button`
+        border: none;
+        background: none;
+        font-weight: bold;
+`;
+
+
+export {InputBox, AddDiv, AddButton, MainDiv, PageHeader, ListHeader, ListDiv, ListItem, Ulist, DelButton};
 
