@@ -1,6 +1,9 @@
-import React from "react";
-import {PageHeader} from './style';
+import React from 'react';
+import { PageHeader } from './style';
 
-const Header = () => <header><PageHeader>Manage My Items</PageHeader></header>;
+const Header = () =>
+  <header>
+    <PageHeader>Manage My Items</PageHeader>
+  </header>;
 
 export default Header;

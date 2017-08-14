@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import {MainDiv} from './style';
+import { MainDiv } from './style';
 import Header from './Header';
 import Add from './Add';
-
 
 class App extends Component {
   render() {
