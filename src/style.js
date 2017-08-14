@@ -40,6 +40,8 @@ const AddButton = styled.button`
   background-color: #fff;
   border: none;
   line-height: 1.5;
+  cursor: pointer;
+  cursor: hand;
 `;
 
 const ListDiv = styled.div`
@@ -71,6 +73,8 @@ const DelButton = styled.button`
   border: none;
   background: none;
   font-weight: bold;
+  cursor: pointer;
+  cursor: hand;
 `;
 
 export {
