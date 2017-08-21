@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 //import style components necessary for this component
 import { InputBox, AddDiv, AddButton } from './style';
@@ -7,9 +7,8 @@ import { InputBox, AddDiv, AddButton } from './style';
 import List from './List';
 
 //create a class component to get input from user and be able to add and delete items in the list
-class Add extends Component {
+class Add extends React.Component {
   state = {
-    value: '',
     myListArr: []
   };
 

@@ -7,7 +7,7 @@ import { ListDiv, ListItem, ListHeader, Ulist, DelButton } from './style';
 class List extends React.Component {
   //this is invoked on click of delete button and in turn calls the onDelete method of Add component passing the index of the item that is stores as id in li element
   handleDelete = e => {
-    this.props.onDelete(e.target.parentElement.id);
+    this.props.onDelete(e.target.id);
   };
 
   //renders the dom with current state of array that is passed from Add component
@@ -22,7 +22,9 @@ class List extends React.Component {
           {myArrList.map((item, index) =>
             <ListItem id={index} key={index}>
               {item}
-              <DelButton onClick={this.handleDelete}>X</DelButton>
+              <DelButton id={index} onClick={this.handleDelete}>
+                X
+              </DelButton>
             </ListItem>
           )}
         </Ulist>
