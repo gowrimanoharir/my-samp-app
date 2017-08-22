@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { MainDiv } from './style';
-import Header from './Header';
-import Add from './Add';
+import React, { Component } from "react"
+import { MainDiv } from "./style"
+import Header from "./Header"
+import Add from "./Add"
 
 //structure the page with Maindiv, header and Add components
 class App extends Component {
@@ -11,8 +11,8 @@ class App extends Component {
         <Header />
         <Add />
       </MainDiv>
-    );
+    )
   }
 }
 
-export default App;
+export default App

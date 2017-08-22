@@ -1,23 +1,23 @@
-import styled, { injectGlobal } from '../node_modules/styled-components';
+import styled, { injectGlobal } from "../node_modules/styled-components"
 
 injectGlobal`
     html, body {
         font-family: sans-serif;
         margin: 0;   
     }
-`;
+`
 
 const MainDiv = styled.div`
   background: #c6e7ea;
   padding-bottom: 5px;
   min-height: 100%;
-`;
+`
 
 const PageHeader = styled.h1`
   margin-top: 0;
   text-align: center;
   padding-top: 10px;
-`;
+`
 
 const AddDiv = styled.div`
   background: #d4d6d6;
@@ -25,7 +25,7 @@ const AddDiv = styled.div`
   justify-content: center;
   padding: 10px;
   margin: 10px;
-`;
+`
 
 const InputBox = styled.input`
   border-radius: 2px;
@@ -33,7 +33,7 @@ const InputBox = styled.input`
   margin-right: 5px;
   width: 20%;
   line-height: 1.5;
-`;
+`
 
 const AddButton = styled.button`
   border-radius: 2px;
@@ -42,7 +42,7 @@ const AddButton = styled.button`
   line-height: 1.5;
   cursor: pointer;
   cursor: hand;
-`;
+`
 
 const ListDiv = styled.div`
   background: #ddc9a2;
@@ -51,14 +51,14 @@ const ListDiv = styled.div`
   align-items: center;
   padding: 10px;
   margin: 10px;
-`;
+`
 
 const ListHeader = styled.h3`
   padding-top: 5px;
   margin: 0px;
-`;
+`
 
-const Ulist = styled.ul`list-style-type: none;`;
+const Ulist = styled.ul`list-style-type: none;`
 
 const ListItem = styled.li`
   display: flex;
@@ -67,7 +67,7 @@ const ListItem = styled.li`
   background: palevioletred;
   padding: 5px;
   margin: 5px;
-`;
+`
 
 const DelButton = styled.button`
   border: none;
@@ -75,7 +75,7 @@ const DelButton = styled.button`
   font-weight: bold;
   cursor: pointer;
   cursor: hand;
-`;
+`
 
 export {
   InputBox,
@@ -87,5 +87,5 @@ export {
   ListDiv,
   ListItem,
   Ulist,
-  DelButton
-};
+  DelButton,
+}
